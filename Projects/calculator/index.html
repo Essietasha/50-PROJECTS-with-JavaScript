@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calcLabel">
+            <p class="calcHeader">calc</p>
+        </div>
+        <div class="calcInnerbox">
+            <div id="calcResultCont">
+                <input type="text" id="display" class="display" disabled>
+            </div>
+            <div class="calcButtonsCont">
+                <button onclick="affixToDisplay('7')" id="key7" class="calcbutton">7</button>
+                <button onclick="affixToDisplay('8')" id="key8" class="calcbutton">8</button>
+                <button onclick="affixToDisplay('9')" id="key9" class="calcbutton">9</button>
+                <button onclick="clearAll()" id="keyDEL" class="calcbutton delete">DEL</button>
+                <button onclick="affixToDisplay('4')" id="key4" class="calcbutton">4</button>
+                <button onclick="affixToDisplay('5')" id="key5" class="calcbutton">5</button>
+                <button onclick="affixToDisplay('6')" id="key6" class="calcbutton">6</button>
+                <button onclick="affixToDisplay('+')" id="key+" class="calcbutton">+</button>
+                <button onclick="affixToDisplay('1')" id="key1" class="calcbutton">1</button>
+                <button onclick="affixToDisplay('2')" id="key2" class="calcbutton">2</button>
+                <button onclick="affixToDisplay('3')" id="key3" class="calcbutton">3</button>
+                <button onclick="affixToDisplay('-')" id="key-" class="calcbutton">-</button>
+                <button onclick="affixToDisplay('.')" id="key." class="calcbutton">.</button>
+                <button onclick="affixToDisplay('0')" id="key0" class="calcbutton">0</button>
+                <button onclick="affixToDisplay('/')" id="key/" class="calcbutton">/</button>
+                <button onclick="affixToDisplay('*')" id="key*" class="calcbutton">*</button>
+            </div>
+            <div class="resetAndEqualto">
+                <div class="reset"><button onclick="clearAll()" id="" class="resetbtn">RESET</button></div>
+                <div class="eqaual"><button onclick="calculateResult()" id="" class="equalbtn">=</button></div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
