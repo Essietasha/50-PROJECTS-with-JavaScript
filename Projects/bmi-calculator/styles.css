@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #40A578;
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #40A578;
+}
+
+.innerCont{
+    width: 80%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 130px;
+    background: linear-gradient(90deg, #88FEFF, #FF8DA3);
+    border-radius: 20px;
+}
+
+.calc{
+    padding-top: 5%;
+    color: #fff;
+    text-align: center;
+}
+.calc h1{
+    font-size: 45px;
+}
+
+.formCont{
+    margin-top: 30px;
+    background-color: #E8EFCF;
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    border-radius: 20px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.weight-mt{
+    padding-top: 40px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+}
+
+.calBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+button{
+    background: #40A578;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yourBmi{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+    height: 50px;
+}
+
+.resultGrid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 74%;
+    justify-content: space-between;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.yourBmiRs{
+    height: 100%;
+    background-color: #E8EFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultCont{
+    height: 100%;
+    background-color: #E8EFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+    height: 50px;
+}
+
+.statusGrid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.UnderWeight{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(224, 224, 15);
+    border-right: 5px solid #E8EFCF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Normal{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    border-right: 5px solid #E8EFCF;
+    border-right: 5px solid #E8EFCF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Overweight{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orangered;
+    border-right: 5px solid #E8EFCF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Obese{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+
+    .calc h1{
+        font-size: 35px;
+    }
+    .calc p{
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+
+    input{
+        width: 100px;
+    }
+    .yourBmi{
+        width: 50%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .formCont label{
+        font-size: 18px;
+    }
+
+    .yourBmiRs{
+        padding-left: 5px;
+    }
+    .status{
+        margin-top: 10px;
+    }
+
+
+
+    .statusGrid *{
+        height: 100%;
+        font-size: 12px;
+        padding: 0px 3px;
+        border-right: none;
+    }
+    
+}

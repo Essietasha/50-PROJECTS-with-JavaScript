@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/view-tape-measure-with-apple-fruit.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="innerCont">
+            <div class="calc">
+                <h1 class="calcTop">Calculate your BMI</h1>
+                <p class="bodyMass">Body Mass Index, or BMI is used to determine a healthy weight range for your height</p>
+            </div>
+            <form id="form" class="formCont">
+                <label for="weigh" class="weight weight-mt">Weight <input id="weightValue" placeholder="kilograms"></label>
+                <label for="heigh" class="height">Height <input id="heightValue" placeholder="meters"></label>
+
+                <div class="calBtn"><button type="submit" id="calculate">CALCULATE</button></div>
+            </form>
+
+            <div class="yourBmi">
+                <div class="resultGrid">
+                    <div class="result yourBmiRs">Your BMI:</div>
+                    <div class="result resultCont"></div>
+                </div>
+            </div>
+
+            <div class="status">
+                <div class="statusGrid">
+                    <div class="box UnderWeight">UnderWeight <br> &lt; 18.5</div>
+                    <div class="box Normal">Normal Weight <br> 18.5 - 25</div>
+                    <div class="box Overweight">Overweight <br> 25 - 30</div>
+                    <div class="box Obese">Obese <br> > 30</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
