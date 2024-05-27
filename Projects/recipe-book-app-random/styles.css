@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1A4D2E;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto; 
+    position: relative;
+  }
+
+.recipeHeader{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.headerimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+.getRecipe{
+    color: #fff;
+    font-size: 10px;
+}
+
+.img{
+    height: 70%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.refresh{
+    position: absolute;
+    top: 88.5%;
+    left: 48%;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: #1A4D2E;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.healthy{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.thisCookbook{
+    font-size: 12px;
+}
