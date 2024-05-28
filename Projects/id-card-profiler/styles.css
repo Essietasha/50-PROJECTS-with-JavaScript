@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #910A67;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.errorMessage{
+    background-color: #fff;
+    margin-top: 10px;
+    width: 40%;
+    height: 30px;
+    margin-left: 198px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: red;
+    border-radius: 5px;
+}
+
+
+.formflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.forminnerbox{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding: 45px 35px;
+    background-color: white;
+    height: 90%;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.formcontrol{
+    height: 70px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    background-color: #E5E1DA;
+    border: 1px solid #E5E1DA;
+    border-radius: 5px;
+}
+
+.popupinnerbox{
+   margin-top: 180px;
+   margin-right: 250px;
+   margin-left: 50px;
+    background-color: white;
+    height: 220px;
+    width: 75%;
+    padding-left: 30px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(#80DB89, #D047E0);
+}
+
+.popupinnerbox h3{
+    padding: 10px 10px;
+}
+
+.btndiv{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+button{
+    width: 80%;
+    height: 100%;
+    background-color: #910A67;
+    border: 1px solid #910A67;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.display{
+    display: block;
+}

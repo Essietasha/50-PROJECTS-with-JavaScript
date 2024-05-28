@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="errorMessage">
+            <h5>Please Fill in All Inputs Correctly!!!</h5>
+        </div>
+        <div class="formflex">
+            <div class="formbox">
+                <div class="forminnerbox">
+                    <form id="form">
+                        <div class="formcontrol">
+                            <label for="firstname">First Name</label>
+                            <input id="firstNameInput" type="text" placeholder="Enter First Name">
+                        </div>
+                        <div class="formcontrol">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastNameInput" type="text" placeholder="Enter Last Name">
+                        </div>
+                        <div class="formcontrol">
+                            <label for="code">NYSC Code</label>
+                            <input id="nysccodeInput" type="number" placeholder="Enter your NYSC State Code">
+                        </div>
+                        <div class="formcontrol">
+                            <label for="dob">Date of Birth</label>
+                            <input id="dobInput" type="date" placeholder="Date of Birth">
+                        </div>
+                        <div class="formcontrol">
+                            <label for="ppa">PPA</label>
+                            <input id="ppaInput" type="text" placeholder="Place of Primary Assignment">
+                        </div>
+                        <div class="formcontrol">
+                            <label for="phone">Phone</label>
+                            <input id="phoneInput" type="number" placeholder="Phone Number">
+                        </div>
+
+                        <div class="btndiv">
+                            <button id="generateID">Generate ID Card</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="popupinnerbox">
+                    <h3>NATIONAL YOUTH SERVICE CORP</h3>
+                    <p class="name"></p>
+                    <p class="nysccode"></p>
+                    <p class="datebirth"></p>
+                    <p class="ppassignment"></p>
+                    <p class="footer"></p>
+                    <p class="phone"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
