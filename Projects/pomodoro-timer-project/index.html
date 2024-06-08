@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="container">
+            <div class="circleandbuttonsflex">
+                <div class="circle">
+                    <div class="circle2">
+                        <div class="timer">25:00</div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="start" onclick="startCountdown()">START</button>
+                    <button id="stop" onclick="tooglePause()">PAUSE/PLAY</button>
+                    <button id="reset" onclick="resetCountdown()">RESET</button>
+                    <!-- <button id="stop" onclick="stopCountdown()">STOP</button>
+                         <button id="resume" onclick="resumeCountdown()">RESUME</button> 
+                    -->
+                </div>
+            </div>
+        </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
