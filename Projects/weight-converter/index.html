@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <div class="container">
+            <div class="error"></div>
+            <h1>Weight Converter</h1>
+            <div class="flex">
+                <p class="pounds">Pounds:</p>
+                <input id="userInput" type="number" placeholder="Enter number">
+                <button id="calculate" onclick="calculateWeight()">Go</button>
+            </div>
+            <div class="result">
+                <h2 class="resultInKg">Your weight in kg is: </h2>
+                <h2 id="actualResult"></h2>
+            </div>
+
+
+            <div class="allResults">
+                <h2>Result</h2>
+                <div class="resultsFlex">
+                    <div class="lb">In Grams:</div>
+                    <div class="rs" id="grams"></div> 
+                </div>         
+                <div class="resultsFlex">
+                    <div class="lb">In Kilograms:</div>
+                    <div class="rs" id="kilo"></div> 
+                </div>         
+                <div class="resultsFlex">
+                    <div class="lb">In Pounds:</div>
+                    <div class="rs" id="pounds"></div> 
+                </div>         
+                <div class="resultsFlex">
+                    <div class="lb">In Ounces:</div>
+                    <div class="rs" id="ounces"></div> 
+                </div>         
+            </div>
+
+            <button id="reset" onclick="resetResult()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
