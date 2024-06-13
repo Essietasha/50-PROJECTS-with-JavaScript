@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="boxes">
+            <label for="celsius">Celsius:</label>
+            <input onchange="updateTemperature(event)" type="number" name="celsius" id="celsius" placeholder="Enter Temperature in °C"> 
+            <!-- <input oninput="convertFromCelsius()" type="number" name="celsius" id="celsius" placeholder="Enter Temperature in °C">  -->
+        </div>
+        <div class="boxes">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input onchange="updateTemperature(event)" type="number" name="fahrenheit" id="fahrenheit" placeholder="Enter Temperature in °F"> 
+            <!-- <input oninput="convertFromFahrenheit()" type="number" name="fahrenheit" id="fahrenheit" placeholder="Enter Temperature in °F">  -->
+        </div>
+        <div class="boxes">
+            <label for="kelvin">Kelvin:</label>
+            <input onchange="updateTemperature(event)" type="number" name="kelvin" id="kelvin" placeholder="Enter Temperature in °K"> 
+            <!-- <input oninput="convertFromKelvin()" type="number" name="kelvin" id="kelvin" placeholder="Enter Temperature in °K">  -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
