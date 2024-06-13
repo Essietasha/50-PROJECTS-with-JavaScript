@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="recipeHeader">
+            <img class="headerimg" src="images/Homepage.jpg" alt="">
+            <h1>RECIPE BOOK</h1>
+            <img class="headerimg" src="images/Homepage.jpg" alt="">
+        </div>
+        <p class="getRecipe">Discover everyday recipes for your food, featuring vegetaraian recipes, <br> whole food recipes and vegan recipes.</p>
+
+        <div class="recipeContainer">       
+            <div class="recipeFlex">
+                <div class="recipeBox">
+                    <p class="meal">MEDITERRANEAN SALAD</p>
+                    <button onclick="popUpRecipeInfo('id', '1')" class="view">View Recipe</button>
+                </div>
+                <div class="recipeBox">
+                    <p class="meal">PUMPKIN SOUP</p>
+                    <button onclick="popUpRecipeInfo('id', '2')" class="view">View Recipe</button>
+                </div>
+                <div class="recipeBox">
+                    <p class="meal">SPAGHETTI OLIO</p>
+                    <button onclick="popUpRecipeInfo('id', '3')" class="view">View Recipe</button>
+                </div>
+                <div class="recipeBox">
+                    <p class="meal">CLASSIC GRILLED CHEESE SANDWICH</p>
+                    <button onclick="popUpRecipeInfo('id', '4')" class="view">View Recipe</button>
+                </div>
+                <div class="recipeBox">
+                    <p class="meal">CHICKEN CORDON BLEU</p>
+                    <button onclick="popUpRecipeInfo('id', '5')" class="view">View Recipe</button>
+                </div>
+                <div class="recipeBox">
+                    <p class="meal">CORDON</p>
+                    <button onclick="popUpRecipeInfo('id', '6')" class="view">View Recipe</button>
+                </div>
+            </div>
+            <div class="popUp displayNone">
+                <div class="popText">
+                    <p class="title styleTitle"></p>
+                    <p class="ingredients styleP"></p>
+                    <p class="instruction styleP"></p>
+                    <p class="cookingtime styleP"></p>
+                </div>
+                <div><button class="closeButton" onclick="closePopUp()">X</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

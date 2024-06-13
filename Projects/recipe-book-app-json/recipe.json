@@ -1,0 +1,50 @@
+[
+      {
+        "id": "1",
+        "title": "MEDITERRANEAN SALAD",
+        "ingredients": "Broccoli, Spinach, Red Pepper, Carrots, onions, Quinoa",
+        "instruction": "Cook the quinoa in water. While the quinoa is cooking, cook the vegetables. When everything has cooled, mix together.",
+        "cookingtime": "15 minutes"
+       },
+      {
+        "id": "2",
+        "title": "PUMPKIN SOUP",
+        "ingredients": "Butter, Onions, Garlic, Pumpkin, Havy Cream, Salt and Pepper",
+        "instruction": "Melt the butter over medium heat, add the garlic to the onions and stir constantly for 1 minute. Turn heat to low and add pumpkin puree and simmer the soup for 2 mins. Stir the heavy cream into the soup, serve immediately.",
+        "cookingtime": "25 minutes"
+      },
+      {
+        "id": "3",
+        "title": "SPAGHETTI OLIO",
+        "ingredients": "1 pound of whole whaet angel pasta, 1/2 pound mushroom, 1 small onion, diced 3-4 cloves garlic, 2 tablespoons butter, Fresh parsley, red onion, grated parmesan, sea salt and black pepper.",
+        "instruction": "Cook pasta. Drain and set aside. Fry butter, add onions, mushroom and flour. Chop bacon to slices, add to pan and mix for five minutes. Simmer for 5 minutes. Serve.",
+        "cookingtime": "30 minutes"
+      },
+      {
+        "id": "4",
+        "title": "CLASSIC GRILLED CHEESE SANDWICH",
+        "ingredients": "4 slices of bread, 4 slices of cheddar cheese, 2 tbsp butter.",
+        "instruction": "Lay out the bread slices. Place two slices of cheese between two slices of bread to make each sandwich. Spread butter on each. Heat. Cook for about 3-4 minutes until golden brown. Allow to cook for a minute, then cut diagonally. Serve.",
+        "cookingtime": "10 minutes"
+      },
+      {
+        "id": "5",
+        "title": "CHICKEN CORDON BLEU",
+        "ingredients": "Skinless chicken breasts, Swiss cheese, Ham, Flour, Slt and pepper, Eggs, Butter, Breadcrumbs, Chicken broth, Cornstarch, Heavy cream.",
+        "instruction": "Prepare the chicken, bread the chicken, cook the chicken, make the sauce, serve.",
+        "cookingtime": "40 minutes"
+      },
+      {
+        "id": "6",
+        "title": "CORDON BLEU",
+        "ingredients": "Skinless chicken breasts, Swiss cheese, Ham, Flour, Slt and pepper, Eggs, Butter, Breadcrumbs, Chicken broth, Cornstarch, Heavy cream.",
+        "instruction": "Prepare the chicken, bread the chicken, cook the chicken, make the sauce, serve.",
+        "cookingtime": "40 minutes"
+      }
+]
+
+
+
+
+
+
