@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.img{
+    width: 100%;
+}
+
+.tabs{
+    background-color: orange;
+}
+
+.tabs h3{
+    position: absolute;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    bottom: 2%;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.conference{
+    color: #1B1A55;
+    font-size: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.steps{
+    padding: 70px 40px;
+}
+
+
+.steps h6{
+    color: #333;
+}
+
+.steps p{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.info{
+    display: none;
+}
+
+.info.showContent{
+    display: block;
+}
+
+.btn:hover:not(.showContent) {
+    background: orange;
+    color: white;
+}
+
+.btn.showContent{
+    background: #D8EFD3;
+}
+
+@media (max-width: 600px) {
+    .steps{
+        padding: 10px;
+    }
+
+    .steps p{
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .tabs h3{
+        display: none;
+    }
+}
+
