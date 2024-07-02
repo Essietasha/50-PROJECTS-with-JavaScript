@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="popUp hidden">
+            <p>Password Copied!</p>
+        </div>
+        <h2>Random Password Generator</h2>
+        <div class="inputFlex">
+            <input type="text" id="passwordBox" placeholder="Click below to generate a random password"/>  
+            <abbr title="Copy"><i class="fa-regular fa-copy" id="copyEl"> </i></abbr>
+        </div>
+        <button id="btn">Generate</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
