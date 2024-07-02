@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-height: 100vh;
+    margin-top: 50px;
+}
+
+.navigation{
+    background-color: gainsboro;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo p{
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.fa-globe{
+    color: gray;
+    font-size: 1.4rem;
+    margin-left: 120px;
+    margin-right: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.hamburger, .search, .citte{
+    color:cornflowerblue;
+}
+
+p, .fa-plus, .fa-minus{
+    color: #40A578;
+    cursor: pointer;
+}
+
+.questionBox{
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 30px;
+    min-width: 50vw;
+}
+
+.questionTopic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.questionTopic p{
+    font-weight: bold;
+}
+
+ol{
+    list-style: none;
+    color: #333;
+}
+
+hr{
+    color: gray;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.questionText{
+    display: none;
+}
+
+.displayText .questionText{
+    display: block;
+}
+
+.closeAnswer{
+    display: none;
+}
+
+.displayText .closeAnswer{
+    display: inline;
+}
+
+.displayText .viewAnswer{
+    display: none;
+}
