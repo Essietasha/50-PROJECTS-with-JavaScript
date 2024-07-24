@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, lightgreen, lightblue);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255, 0.7);
+    min-height: 70vh;
+    min-width: 70vw;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h3{
+    word-spacing: 8px;
+}
+
+.container p{
+    margin: 10px 0px;
+    color: #333;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: 1s ease;
+}
+
+.note{
+    height: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(90, 237, 90);
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    color: lightseagreen;
+}
+
+#notescontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: center;
+    gap: 10px;
+}
+
+textarea{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
