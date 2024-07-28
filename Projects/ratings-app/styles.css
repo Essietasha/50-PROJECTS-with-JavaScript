@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFDE4D;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cont{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.textEl{
+    margin: 10px 0px;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+}
+
+.iconsContainer{
+    position: relative;
+    height: 80%;
+    width: 50vw;
+}
+
+.emojisCont{
+    position: absolute;
+    top: 10%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ratingsCont{
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+}
+
+.fa-regular{
+    color: green;
+    font-size: 50px;
+    transform: translateX(0);
+    transition: transform 0.2s;
+}
+
+.fa-star{
+    color: #FFDE4D;
+    font-size: 30px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.active{
+    color: green;
+}
